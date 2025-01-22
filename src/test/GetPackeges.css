@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.adminnav {
+  /* border: 2px solid red; */
+  /* height: 60px; */
+  width: 1256px;
+  background-color: #ffffff;
+  display: flex;
+  z-index: 0;
+  
+}
+
+.adminnav {
+  /* border: 2px solid red; */
+  height: 60px;
+  width: 1256px;
+  background-color: white;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  /* position: fixed; */
+}
+
+
+.btnscontainer {
+  /* border: 2px solid red; */
+  height: 100px;
+  background-color: #f9fafb;
+  display: flex;
+  /* margin-bottom: 300px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+
+.adminnav h5 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 900px;
+}
+
+.btnscontainer {
+  /* border: 2px solid red; */
+  height: 100px;
+  background-color: white;
+  display: flex;
+  /* margin-bottom: 300px; */
+  width: 1256px;
+
+  /* background-color: #000000; */
+}
+
+.btns {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.btns button {
+  background-color: whitesmoke;
+  color: lightsteelblue;
+  border: none;
+
+}
+
+.btns button:active {
+  background-color: green;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: black;
+}
+
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.content-area {
+  margin-top: 20px;
+  padding: 15px;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+
+.btns button {
+  background-color: whitesmoke;
+  color: lightsteelblue;
+  /* border: none; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.0s;
+}
+
+.btns button.active {
+  background-color: #218838; 
+  color: white; 
+}
+

@@ -1,0 +1,24 @@
+.access-dropdown {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .access-dropdown option {
+    background-color: #333;
+    color: white;
+  }
+  
+  .access-dropdown option:checked {
+    background-color: #555;
+    color: white;
+  }
+  
+  .access-dropdown option:hover {
+    background-color: #444;
+    color: white;
+  }
+  

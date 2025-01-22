@@ -1,0 +1,203 @@
+
+.packages-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  width: 1227px;
+  height: 400 auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.header-left {
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.add-package-btn {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-package-btn:hover {
+  background-color: #218838;
+}
+
+.packages-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.packages-table th,
+.packages-table td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: black;
+}
+
+.packages-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.packages-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.packages-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.editbtn {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.editbtn:hover {
+  color: #0056b3;
+}
+
+.add-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+.add-modal > div {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 400px;
+  padding: 20px;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+  font-family: Arial, sans-serif;
+}
+
+.add-modal h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333333;
+}
+
+
+.add-modal label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #444444;
+}
+
+.add-modal input,
+.add-modal textarea,
+.add-modal select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: white;
+  border: none;
+  
+}
+
+.add-modal textarea {
+  resize: none;
+  height: 80px;
+  /* color: white; */
+}
+
+
+.add-modal .button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.add-modal button:first-child {
+  background: red;
+  color: white;
+  border: 1px solid #cccccc;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  /* color: white; */
+  margin-left: 130px;
+}
+
+.add-modal button:first-child:hover {
+  background: #e0e0e0;
+}
+
+
+.add-modal button:last-child {
+  background: #28a745;
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-modal button:last-child:hover {
+  background: #218838;
+}
+.add-modal input,
+.add-modal textarea{
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+}
+.add-modal select {
+  color: black;
+}
+
+.add-modal input:focus,
+.add-modal textarea:focus,
+.add-modal select:focus {
+  outline: none; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* For error message */
+
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
+
+.input-error {
+  border-color: red;
+}
